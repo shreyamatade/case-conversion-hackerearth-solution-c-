@@ -27,20 +27,18 @@ int main()
                 for(long long int j=0;j<i;j++)
                 {
                     s=s+a[j];
-                    cout<<"s now is:"<<s<<"\n";
+
                 }
                 u=a[i];
                 u[0]=char(int(u[0])+32);
-                cout<<"u[0] is:"<<u[0]<<endl;
+
 
                 for(long long int j=i+1;j<a.length();j++)
                 {
                     u=u+a[j];
-                    cout<<"u is :"<<u<<endl;
+
                 }
-                cout<<"final a:"<<a<<endl;
-                cout<<"final _:"<<"_"<<endl;
-                cout<<"final u:"<<u<<endl;
+
                 a=s+"_"+u;
             }
         }
